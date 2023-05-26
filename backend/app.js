@@ -14,7 +14,7 @@ require('./db') //!mongoose DB connection folder is called here hen server start
 const PRODUCT = require('./model/products')
 
 
-app.post('/product',async (req,res)=>{
+app.post('/products',async (req,res)=>{
     try {
         console.log(req.body);
         let item = req.body;
